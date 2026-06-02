@@ -5,5 +5,6 @@ dotenv.config();
 const envVars = process.env;
 
 export const env = {
-    PORT:envVars.PORT
+    PORT:envVars.PORT,
+    NODE_ENV:envVars.NODE_ENV,
 }
