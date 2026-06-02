@@ -4,8 +4,8 @@
     "outDir": "./dist",
 
     "target": "ES2022",
-    "module": "CommonJS",
-    "moduleResolution": "nodenext",
+    "module": "commonjs",
+    "moduleResolution": "node16",
 
     "types": ["node"],
 
